@@ -6,23 +6,23 @@
     letter-spacing: 0px;
 }
 
-.font-preset-24eb {
+.fs24-extraBold {
     font-size: 24px;
     font-weight: 800;
 }
 
-.font-preset-16m {
+.fs16-medium {
     font-size: 16px;
     font-weight: 500;
 
 }
 
-.font-preset-14m {
+.fs14-medium {
     font-size: 14px;
     font-weight: 500;
 }
 
-.font-preset-14eb {
+.fs14-extraBold {
     font-size: 14px;
     font-weight: 800;
 }
