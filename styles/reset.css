@@ -1,0 +1,11 @@
+/*
+    Eliminamos los márgenes y espaciados que
+    estan establecidos por defecto en los
+    navegadores.
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
