@@ -10,11 +10,13 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     width: 384px;
     height: 522px;
     background-color: var(--white);
     padding: 24px;
-
     border-style: solid;
     border-width: 1px;
     border-color: var(--grey-950);
@@ -38,15 +40,41 @@ main {
 
 /* titulos y texto*/
 
+.titulos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .titulos .contenedor-learning {
     width: fit-content;
     height: fit-content;
     background-color: var(--yellow);
     padding: 4px 12px 4px 12px;
+    border-radius: 4px;
 }
 
+.--grey-500 {
+    color: var(--grey-500);
+}
 
+/* perfil y nombre */
+.perfil {
+    height: fit-content;
+    width: fit-content;
+}
 
+.perfil .contenedor-perfil {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil img {
+    height: 32px;
+    width: 32px;
+}
 
 
 
